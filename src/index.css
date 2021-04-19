@@ -1,0 +1,23 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+#root {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.route-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.route-wrapper > div {
+  position: absolute;
+}
